@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ejemplo de imagen de fondo con botón y Bootstrap</title>
+    <!-- Enlaces a Bootstrap CSS y JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+      /* Estilo de cuerpo */
+      body {
+        background-image: url("imagen-de-fondo.jpg");
+        background-size: cover;
+        background-position: center;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Estilo de botón */
+      .boton {
+        margin-bottom: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Contenedor de la página usando Bootstrap -->
+    <div class="container">
+      <!-- Encabezado -->
+      <h1>Mi página con imagen de fondo y botón</h1>
+      <p>Texto de ejemplo en la página.</p>
+
+      <!-- Botón usando Bootstrap -->
+      <button type="button" class="btn btn-primary boton">Hacer clic</button>
+    </div>
+  </body>
+</html>
